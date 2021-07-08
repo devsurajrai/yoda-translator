@@ -1,4 +1,4 @@
-var translateButton= document.querySelector("#english-translate-button")
+var translateButton= document.querySelector("#english-translate-button") 
 var englishData=document.querySelector("#english-textarea")
 var bananaData=document.querySelector("#yoda-textarea")
 

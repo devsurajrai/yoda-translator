@@ -2,15 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body{
-    background-color: black;
+    background-color: rgb(245, 242, 242);
     font-family: 'Montserrat', sans-serif;
-}
-.hero #image{
-    height: 250 px;
-    width: 400px;
-    display: block;
-    margin : auto;
-    border-radius: 50%;
 }
 
 .hero{
@@ -18,18 +11,17 @@ body{
     margin: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: rgb(126, 5, 156);
+    background-color: rgb(136, 101, 145);
     text-align: center;
-    padding: 3rem
+    padding: 3rem;
+    font-size: 20px;
+    color: white;
     
 }
 
-.header #welcome-heading{
-    color: rgb(8, 8, 8);
-}
 
 #translation-area{
-    background-color: rgb(197, 82, 5);
+    
     text-align: center;
     margin: 2rem;
     margin-top: 1rem;
@@ -45,12 +37,11 @@ body{
     font-size: 1.25rem;
     padding:1rem;
     font-weight: .25rem;
-    background-color:cyan
 }
 
 #translation-area #english-section #english-heading{
     font-size: 2.5rem;
-    font-style: oblique;
+    
     margin-bottom: 1rem;
 }
 
@@ -61,35 +52,36 @@ body{
     font-size: 1.25rem;
     padding:1rem;
     font-weight: .25rem;
-background-color: cyan;
+
 }
 
 
 #translation-area #yoda-section #yoda-heading{
     font-size: 2.5rem;
-    font-style: oblique;
-    margin-bottom: 1rem;
 }
 
 #footer{
-    background-color:rgb(126, 5, 156);
+    background-color:rgb(136, 101, 145);
     margin:2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
     padding:2.5rem;
     border-radius: 1rem;
+    color: white;
 }
 
 #translation-area #english-section #english-translate-button{
     padding: .75rem;
     padding-left:3rem;
     padding-right:3rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     border-radius: 1rem;
-    background-color: rgb(126, 5, 156);
-    font-weight: bold;
+    border:3px solid rgb(136, 101, 145);
+    
     
 
 }
+
+
 
