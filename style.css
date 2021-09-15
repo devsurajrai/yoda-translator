@@ -76,8 +76,8 @@ body{
     padding-left:3rem;
     padding-right:3rem;
     margin-top: 3rem;
-    border-radius: 1rem;
     border:3px solid rgb(136, 101, 145);
+    border-radius: 1rem;
 }
 #english-translate-button{
 cursor: pointer;
