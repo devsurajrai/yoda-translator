@@ -2,7 +2,7 @@
 
 ****
 
-This is a fun app made with vanilla-js basic app which uses the event listener and api to translate the given text into another language which is in this case is a yoda's (remember star wars?😅 ) language.
+This is a fun app made with vanilla-js basic app which translates the given text into another language which is in this case is a yoda's (remember star wars?😅 ) language.
 
 #### Go to the app: [Visit Live](https://yoda-translator-neo.netlify.app/)
 
