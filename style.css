@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --primary-color:#886591
+}
 body{
     background-color: rgb(245, 242, 242);
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +14,7 @@ body{
     margin: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: rgb(136, 101, 145);
+    background-color: var(--primary-color);
     text-align: center;
     padding: 3rem;
     font-size: 20px;
@@ -61,7 +64,7 @@ body{
 }
 
 #footer{
-    background-color:rgb(136, 101, 145);
+    background-color: var(--primary-color);
     margin:2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -76,7 +79,7 @@ body{
     padding-left:3rem;
     padding-right:3rem;
     margin-top: 3rem;
-    border:3px solid rgb(136, 101, 145);
+    border:3px solid var(--primary-color);
     border-radius: 1rem;
 }
 #english-translate-button{
@@ -87,5 +90,50 @@ cursor: pointer;
 #english-translate-button{
     cursor: pointer;
 }
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    margin-left: 10px;
+}
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer{
+    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer .link{
+    color: white
+}
+
+.footer ul{
+    padding-inline-start:0px;
+}
+
+.footer .footer-link-size{
+    font-size: 1.2rem;
+}
+
+.social-icons{
+    height:30px;
+    width:30px}
 
 
